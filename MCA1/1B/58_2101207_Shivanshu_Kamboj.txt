@@ -1,0 +1,39 @@
+Question 1: create a student registration form with username, password, DOB, email.
+
+	Answer.1:
+		<!DOCTYPE html>
+
+		<html>
+		<head>
+    		<title>Registration Form</title>
+		</head>
+
+		<body>
+   		 <h1>Student Registration Form</h1><br />
+
+	    	<form name="regForm">
+        	<label>Username: <input type="text" id="username"></label><br /><br />
+        	<label>Password: <input type="password" id="pwd"></label><br /><br />
+        	<label>Email:<input type="email" id="ema"></label><br /><br />
+        <	input type="submit" class="login" value="Log In" onclick="validation()" formtarget="_blank"><br />
+    		</form>
+		</body>
+		</html>
+
+Question 2: Explain the use of external CSS.	
+	
+	Answer.2:
+		The external style sheet is generally used when you want to make changes on multiple pages. It is ideal for this condition because it facilitates you to change the look of the entire web site by changing just one file.
+
+		It uses the <link> tag on every pages and the <link> tag should be put inside the head section.
+		
+		<head>  
+		<link rel="stylesheet" type="text/css" href="mystyle.css">  
+		</head> 
+		
+		An external style sheet can be written in any text editor. The file should not contain any html tags. Your style sheet should be saved with a .css extension. An example of a style sheet file is shown below:
+		hr {color:sienna;}
+
+		p {margin-left:20px;}
+
+		body {background-image:url(“images/back40.gif”);} 
