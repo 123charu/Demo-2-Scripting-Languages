@@ -1,0 +1,6 @@
+HTML CSS is used to apply a rule to multiple pages. An external style sheet is a separate css file that can be accessed by creating a link within the head section of the webpage.
+Example:
+<head>
+<title>External css</title>
+<link ref="stylesheet" href="style.css">
+</head>
