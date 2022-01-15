@@ -1,0 +1,56 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<title> Login Page </title>  
+
+<body>    
+<center> <h1> Student Registration Form </h1> </center>   
+<form>  
+<div class="container">   
+<label>User Name : </label>   
+<input type="text" placeholder="Enter User Name" name="user id" required>  <br>
+<label>Password : </label>   
+<input type="password" placeholder="Enter Password" name="password" required> <br> 
+<label>Confirm Password : </label>   
+<input type="confirm password" placeholder="Enter Password" name="password" required> <br> 
+<label for="birthday">Date of birth:</label>
+<input type="date" id="Date of birth" name="birthday"><br>
+<label for="email">Email:</label>  
+<input type="text" placeholder="Enter Email" name="email" required> <br> 
+<button type="submit">Login</button>   
+<input type="checkbox" checked="checked"> Remember me   <br>
+<button type="button" class="cancelbtn"> Cancel</button>   
+Forgot <a href="#"> password? </a>
+</div>   
+</form>     
+</body>     
+</html>  
+
+
+
+
+
+
+Use of external css
+External css is used when you want to make updates on multiple pages.
+External css is best if you want to change the overall look of the entire web page by 
+choosing one single file instead of changing in the html code itself which is hectic in nature as 
+you have to change in multiple lines of code .
+
+If you want to use external css you have to link the cs file to your html code using the <link> tag in the head section of your html code and save it with a ".css" extension.
+
+Syntax of linking the css file
+
+<head>  
+<link rel="stylesheet" type="text/css" href="divyam.css">  
+</head>  
+
+Example of a css file 
+
+body {  
+    background-color: darkblue;  
+}  
+h1 {  
+    color: black;  
+    margin-left: 40px;  
+}   
