@@ -1,0 +1,5 @@
+External CSS
+this type of css is used to apply the same styling in more than one webpages unlike the other two types of css where they are used for a single webpages only.
+to use this external css we firstly have to make a different .css file and then we have to link that file in the multiple webpages wherever it is required.
+Syntax/example
+<link ref="Stylesheet" type="text.css" href="style1.css">
