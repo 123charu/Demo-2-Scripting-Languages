@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<BODY>
+    <TITLE>STUDENT LOGIN </TITLE>
+    <FORM action="file:///S:/college%20work/html/4.HTML">
+        <fieldset>
+            <legend>REGISTRATION LOGIN </legend>
+         <B>ENTER YOUR USER-ID </B><INPUT TYPE = "TEXT" required ><BR>
+       <B> ENTER YOUR PASSWORD</B><INPUT TYPE ="password" required><BR>
+        <input type="submit">
+        <input type="reset">
+        
+            </FORM>
+   
+</fieldset>
+</BODY>
+
+
+
+Part B ->
+
+<!DOCTYPE html>
+<BODY>
+    <TITLE>STUDENT INFORMATION </TITLE>
+    <FORM action="file:///S:/college%20work/html/Q4.HTML">
+         <B> FIRST NAME </B><INPUT TYPE = "TEXT" placeholder="ENTER FIRST NAME HERE" ><BR>
+            <B>LAST NAME </B><INPUT TYPE = "TEXT" placeholder="ENTER LAST NAME HERE" ><BR>
+                <B>ENTER YOUR DATE OF BIRTH </B><INPUT TYPE = "date" placeholder="ENTER DOB" ><BR>
+                    <B>CONTACT </B>  <INPUT type="tel"placeholder="ENTER MOBILE NUMBER" ><BR>
+                    <B> EMAIL </B><INPUT TYPE = "email"placeholder="ENTER EMAIL HERE" ><BR>
+                        <B>SELECT YOUR GENDER </B><BR>
+                        MALE<INPUT TYPE = "radio"NAME=R1 ><BR>
+                        FEMALE<INPUT TYPE = "radio" NAME=R1><BR>
+                         <B>CHOOSE YOUR COURSE</B>   
+                            <select>
+                                <option>SELECT COURSE
+                                   <option>MCA
+                                     <option>BCA
+                                        <option>B.Sc(IT)
+
+                            </select><BR>
+                               <B>UPLOAD YOUR MARKSHEET HERE</B>
+                            <INPUT type="file">
+      <input type ="submit" value="Return to login">
+         <INPUT TYPE ="reset">
+     </FORM>
+   </BODY>
