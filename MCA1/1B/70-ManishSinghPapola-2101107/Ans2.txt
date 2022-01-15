@@ -1,0 +1,34 @@
+How to Link a CSS File to an HTML File(i.e., External CSS)
+
+You can link your CSS file to your HTML file by adding a link element inside the head element of your HTML file, like so:
+
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="stylesheet" src="style.css">
+    </head>
+    <body>
+    
+    </body>
+</html>
+
+The link element has many uses, and it is important to specify the right attributes so that you can use it to import an external CSS stylesheet. We'll look at some important attributes now.
+
+1.The rel attribute-The first of the two indispensable attributes is the rel attribute. You will use this                              attribute to tell the browser what the relationship is with the imported file.
+
+                             You'll write rel="stylesheet" to tell the browser that you are importing a stylesheet.
+
+2.The src attribute-The second indispensable attribute is the src attribute, which specifies the file to                               import.
+
+                              A common situation is that the CSS file and the HTML file are in the same folder. In                                      such a case you can write src="style.css".
+
+                              If the CSS file and the HTML file are in different folders, you need to write the correct                               file that needs to go from the HTML file to the CSS file.
+
+                              For example, a common situation is that the CSS file is in a folder that is a sibling to the                               HTML file, like so:
+
+                              project --- index.html
+                              css ---------- style.css
+                              In this case you would need to write a path like "css/styles.css".
+
+3.The type attribute-<link rel="stylesheet" src="style.css" type="text/css">
+                                You use the type attribute to define the type of the content you're linking to. For a                                 stylesheet, this would be text/css. But since css is the only stylesheet language used                                 on the web, it is not only optional, but it is even a best practice not to include it.
