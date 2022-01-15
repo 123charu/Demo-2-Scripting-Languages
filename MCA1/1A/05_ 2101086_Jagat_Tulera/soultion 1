@@ -1,0 +1,26 @@
+<!Doctype html>
+<html>
+<head>Student Registration
+<title> Student Registration </title>
+</head>
+<body>
+<h1 style="text-align:center;">  Student Registration  </h1>
+<form>
+  <label for="text">User Name:</label>
+  <input type="text" id="text1" name="t1"  placeholder="Username"><br>
+
+  <label for="pass">Password:</label>
+  <input type="password" id="pass" name="p1" placeholder="Passcode"><br>
+
+ <label for="dob">dob:</label>
+ <input type="date" id="dob" name="dob"><br>
+
+ <label for="email"><b>Email</b></label>  
+ <input type="text" placeholder="Enter Email" name="email" required> <br>
+
+  <button type="submit"> login </button>
+</form>
+</h2>
+</body>
+</html>
+

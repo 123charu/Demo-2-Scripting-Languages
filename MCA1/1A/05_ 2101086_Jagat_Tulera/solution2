@@ -1,0 +1,26 @@
+//To apply a rule to multiple pages, an external style sheet is used.
+//An external style sheet is a separate CSS file that can be accessed by creating a link within the head section of the webpage. 
+//Multiple webpages can use the same link to access the stylesheet.
+
+//home.html
+<!Doctype html>
+<html>
+<head>
+<title> external style sheet
+</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+<h1> graphic era hill university</h1>
+<h2>welcome to gehu</h2>
+</body>
+</html>
+
+//external file mystyle.css
+
+body {
+       background-color: green;
+}
+h1 {
+      color: blue; font-size: 20px; font-family: verdana; font-style:italic;
+}
