@@ -1,0 +1,6 @@
+External style sheets have the following advantages over internal and inline styles:
+
+one change to the style sheet will change all linked pages
+you can create classes of styles that can then be used on many different HTML elements
+consistent look and feel across multiple web pages
+improved load times because the css file is downloaded once and applied to each relevant page as needed
