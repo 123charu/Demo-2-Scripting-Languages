@@ -1,0 +1,32 @@
+External CSS
+
+There are 3 types of css which are 
+1)Inline CSS
+2)Internal CSS
+3)External CSS
+External CSS is used to apply the same styling in more than one webpages unlike the other two types of css where they are used for a single webpages only.
+to use this external css we firstly have to make a seperate ".css" file and then we have to link that file in the multiple webpages wherever it is required.
+
+Syntax
+<link rel="Stylesheet" href="style1.css">
+
+Example
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<h1>This is Scripting Language deno 2 question 2 </h1>
+</body>
+</html>
+
+style1.css
+body{
+background-color:red;
+height:1000px;
+width:1000px;
+}
+h1{
+color:black;
+}
