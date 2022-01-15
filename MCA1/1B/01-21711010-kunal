@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1>student Registration Form</h1>
+<title>form</title>
+</head>
+<body>
+<table border="3"align="center">
+<tr>
+<td align="center">Registration Form </td>
+</tr>
+<td>
+<form>
+<table border="3"bordercolor="black">
+<pre>
+user name:<input type="text" name="f1" size="50" maxlength="50" placeholder="user name"><br>
+password:<input type="password"name="f1" size="50" maxlength="50" placeholder="password"><br>
+email:<input type="text" name="f1" size="50" maxlength="50"><br>
+DOB<label for="start">:</label><input type="date" id="start" name="trio-start"
+value="2018-07-22"
+min="2018-01-01"
+max="2018-12-31">
+<input type="submit" value="submit"><br>
+</pre>
+</table>
+</form>
+</td>
+</table>
+</body>
+</html>
+
+
+External CSS
+
+An external style sheet is used to define the style for many HTML pages.
+
+To use an external style sheet, add a link to it in the <head> section of each HTML page:
+
+Example
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>This is a heading</h1>
+
+<p>This is a paragraph.</p>
+
+</body>
+
+</html>
+
+style.css:
+h1,p{
+color:red;
+}
