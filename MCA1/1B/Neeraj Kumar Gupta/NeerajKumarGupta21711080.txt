@@ -1,0 +1,56 @@
+Q1 Create a student registration form with username,password,DOB,email.
+
+    <Html>  
+    <head>   
+    <title>  
+    Registration Form
+    </title>  
+    </head>  
+    <body bgcolor="Lightskyblue">  
+    <br>    
+    <form>  
+      
+    <label> Username </label>         
+    <input type="text" name="firstname" size="15"/> <br>   
+   
+    Password:  
+    <input type="Password" id="pass" name="pass"> <br>   
+    <br>  
+    Re-type password:  
+    <input type="Password" id="repass" name="repass"> <br>  
+    <input type="button" value="Submit"/>
+    Email:  
+    <input type="email" id="email" name="email"/> <br>    
+    <br>
+   <label> DOB </label>
+   <input type="date" id="Date of Birth" name="DOB">   
+
+    </form>  
+    </body>  
+    </html>  
+
+Q2 Expalin the use of external CSS
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <link rel="stylesheet" href="neerajstyle.css">
+  </head>
+  <body>
+
+  <h1>Graphic Era Hill University</h1>
+  <p>School Of Computing</p>
+
+  </body>
+  </html> 
+
+
+"neerajstyle.css"
+body {
+  background-color: blue;
+}
+
+h1 {
+  color: green;
+  margin-left: 20px;
+}
+
