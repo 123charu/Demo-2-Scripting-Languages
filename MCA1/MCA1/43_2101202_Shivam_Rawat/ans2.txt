@@ -1,0 +1,9 @@
+An external style sheet is a separate file linked to an HTML web page. It comes with a .css filename extension. All the styles that need to be used on a website can be declared in the external style sheet. External style sheets are an important tool from the webmaster’s perspective.
+By applying consistent formatting to website pages, external style sheets help in bringing a uniform, global look and feel to a website. The external style sheet can be linked from HTML pages. When using an external style sheet, styles need to be set up only once for each element. The external style sheet contains only CSS syntax and also carries a “text/CSS” MIME type. One of the unique features associated with external style sheets is that they can be created in any text editor, but need to be saved with a .css extension. The file should never have any elements of HTML. There are two main techniques of calling an external style sheet into an HTML document. One method is by using the <link> tag within the HTML document head. Another method is with the help of a combination of external CSS functions along with embedded CSS.
+
+There are benefits associated with external style sheets. The external style sheet can be applied to an unlimited number of web pages. An external style sheet can be applied instantly to apply the look to each and every web page. They can also help in bringing a uniform format to every page they are attached to.
+Example:
+
+<head>  
+<link rel="stylesheet" type="text/css" href="mystyle.css">  
+</head>  
