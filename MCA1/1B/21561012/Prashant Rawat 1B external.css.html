@@ -1,0 +1,60 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Font</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="h2">Prashant Rawat</h2>
+    <p>There are a lot of Things...
+        <br>
+        To think About...
+    </p>
+    <h1>I am a MCA student</h1>
+    <h3 id="h3">I can achieve what I dream for...</h3>
+</body>
+</html>
+
+
+style.css
+
+*{
+    text-align: left;
+    margin: 50px;
+}
+    
+h1{
+    color: rgb(21, 113, 58);
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.h2{
+    color: rgb(177, 39, 143);
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+#h3{
+    color: rgb(213, 100, 109);
+    font-size: 500%;
+    font-family: fantasy;
+}
+
+p{
+    font-size: 200%;
+}
+
+p::first-line{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(133, 214, 53);
+    background-color: rgb(38, 134, 165);
+}
+
+p:hover::first-line{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(9, 64, 83);
+    background-color: rgb(221, 81, 167);
+}
