@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Student Login Form</title>
+  </head>
+  <body>
+    <center>
+    <form>
+      <label for="Username">Username :</label>
+      <input type="text" name="" value=""><br><br>
+        <label for="Password">Password :</label>
+      <input type="password" name="" value=""><br><br>
+        <label for="date">D.O.B :</label>
+      <input type="date" name="" value=""><br><br>
+
+      <label for="e-mail">e-mail :</label>
+       <input type="text" name="" value=""><br>
+       <label for="submit">submit:</label>
+      <input type="submit">
+    </form>
+  </center>
+
+  </body>
+</html>
