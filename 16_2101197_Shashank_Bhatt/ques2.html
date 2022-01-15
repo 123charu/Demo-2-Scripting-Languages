@@ -1,0 +1,47 @@
+External CSS is mostly useful in bigger projects where you can create a sinle CSS file and link it with many html documents.
+
+With an external style sheet, you can change the look of an entire website by changing just one file!
+
+Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
+
+Syntax:
+
+<head>
+<link rel="stylesheet" href="Filename.css">
+</head>
+
+EG:
+
+MYSTYLE.CSS
+
+body {
+  background-color: blue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+*{ background-color:yellow;
+}
+
+Index.html
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+<h1>This is a H1</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
