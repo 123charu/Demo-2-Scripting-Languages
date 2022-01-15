@@ -1,0 +1,23 @@
+Use of external css
+External css is used when you want to make updates on multiple pages.
+External css is best if you want to change the overall look of the entire web page by 
+choosing one single file instead of changing in the html code itself which is hectic in nature as 
+you have to change in multiple lines of code .
+
+If you want to use external css you have to link the cs file to your html code using the <link> tag in the head section of your html code and save it with a ".css" extension.
+
+Syntax of linking the css file
+
+<head>  
+<link rel="stylesheet" type="text/css" href="divyam.css">  
+</head>  
+
+Example of a css file 
+
+body {  
+    background-color: darkblue;  
+}  
+h1 {  
+    color: black;  
+    margin-left: 40px;  
+}   
