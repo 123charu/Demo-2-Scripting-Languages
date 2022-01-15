@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+ <title> student information </title>
+</head>
+<body bgcolor="sky blue">
+<form>
+  <label> Name </label>  
+    <input type="text" name="fname" required placeholder="enter name" maxlengTh="10"><br><br>
+
+ Email:
+ <input type="email" name="email" required placeholder="enter email" ><br><br>
+
+ Mobile number:
+   <input type="text" name="mobile" value="+91" size="2">
+   <input type="text" name="mobile" maxlength="10"><br><br><br>
+
+ Gender<br>
+    <input type="radio" name="radio" id="male">
+       <label for="male">Male </label><br>
+    <input type="radio" name="radio" id="female">
+       <label for="female">Female </label><br>
+    <input type="radio" name="radio" id="other">
+       <label for="other">Other </label><br><br>
+
+<p>Courses </p>
+<select>
+   <option> BCA </option>
+   <option> MCA </option>
+   <option> BBA </option>
+   <option> MBA </option>
+   <option> MBBS </option>
+</select><br><br>
+
+<p> Hobbies </p>
+<input type="checkbox" name="hobbies">Singing
+<input type="checkbox" name="hobbies">Dancing
+<input type="checkbox" name="hobbies">Listening music
+<input type="checkbox" name="hobbies">Reading novel<br><br>
+
+
+<p> Date of Birth:</p>
+ <input type="datetime-local" name="d1">
+  
+<p> Address </p>
+<textarea rows="5" cols="50"> </textarea><br><br>
+
+<center>
+<button> Submit </button>
+</center>
+</form>
+</body>
+</html>
