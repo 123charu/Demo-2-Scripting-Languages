@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coder_UK_07</title>
+  </head>
+  <body>
+    <form action="Scripting_4b.html">
+      <fieldset>
+        <legend>Student Registration</legend>
+        <br />
+        <label for="fname">Uder Id:</label>
+        <input
+          type="text"
+          required
+          placeholder="Enter your user id"
+          id="fname"
+          name="fname"
+        /><br /><br />
+        <label for="pass">Password:</label>
+        <input
+          type="password"
+          placeholder="Enter your password"
+          id="pass"
+          name="pass"
+        /><br /><br />
+        <label for="mail">E-Mail:</label>
+        <input
+          type="email"
+          id="mail"
+          placeholder="example@domain.com"
+          name="mail"
+        /><br />
+        <br />
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob" /><br /><br />
+        <button type="Login" value="Login">Login</button>
+        <br /><br />
+      </fieldset>
+    </form>
+  </body>
+</html>
