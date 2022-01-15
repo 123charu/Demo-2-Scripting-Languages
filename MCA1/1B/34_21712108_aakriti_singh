@@ -1,0 +1,50 @@
+
+// QUESTION 1
+
+<!doctype html>
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+<p><h2><u><i>Student Registration Form</i></u></h2></p><br>
+<form>
+<fieldset>
+User name :<input type="number" required placeholder="Enter student id"><br><br>
+Password :<input type="password" required placeholder="Enter password"><br><br>
+Email<input type="email" required placeholder="Enter email"><br><br>
+Date of birth<input type="date" required><br><br>
+<input type="submit" value="Login">
+</fieldset>
+</form>
+</body>
+</html>
+
+// QUESTION 2
+Cascading Style Sheets (CSS) describe how documents are presented on screens, in print, or perhaps how they are pronounced.
+W3C has actively promoted the use of style sheets on the Web since the consortium was founded in 1994.
+
+Cascading Style Sheets (CSS) provide easy and effective alternatives to specify various attributes for the HTML tags. 
+Using CSS, you can specify a number of style properties for a given HTML element. Each property has a name and a value, separated by a colon (:).
+Each property declaration is separated by a semi-colon (;).
+
+EXTERNAL CSS− Define style sheet rules in a separate .css file and then include that file in your HTML document using HTML <link> tag.
+If you need to use your style sheet to various pages, then its always recommended to define a common style sheet in a separate file.
+
+// THIS IS EXTERNAL FILE
+.red {
+   color: red;
+}
+.thick {
+   font-size:20px;
+}
+.green {
+   color:green;
+}
+
+
+USES OF EXTERNAL CSS-
+n css external style sheet is an isolated file, where you can declare all the styles where you want to use on your website.
+In external style sheet we used to apply the styles for each element at once.
+In this you can modify the look of an entire website by changing one file.
+The file should be saved with a .css extension.
